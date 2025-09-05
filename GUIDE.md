@@ -64,4 +64,3 @@ widgets/      # Widget kecil reusable (tile, empty, error)
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc)
 - [MockAPI](https://mockapi.io)
 - [icon.horse](https://icon.horse) untuk logo otomatis
-```
