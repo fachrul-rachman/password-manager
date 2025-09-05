@@ -24,10 +24,6 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Password Manager',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-          useMaterial3: true,
-        ),
         home: const PasswordsPage(),
       ),
     );
