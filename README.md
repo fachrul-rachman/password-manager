@@ -1,35 +1,36 @@
-```markdown
 # Password Manager (Flutter + BLoC + MockAPI)
 
-Project ini adalah aplikasi sederhana untuk belajar **Flutter**, **state management dengan BLoC**, dan **CRUD menggunakan REST API** (MockAPI).  
-Aplikasi ini memungkinkan pengguna untuk menyimpan daftar akun/password secara sederhana.
+Aplikasi sederhana untuk belajar **Flutter**, **state management dengan BLoC**, dan **CRUD menggunakan REST API (MockAPI)**.  
+Project ini cocok digunakan sebagai bahan ajar untuk pengajar maupun latihan mandiri.
 
-## Tujuan
-- Sebagai bahan ajar untuk pengajar/mentor yang ingin menjelaskan konsep Flutter & BLoC.
+---
+
+## 🎯 Tujuan
+- Menjelaskan konsep Flutter & BLoC secara praktis.
 - Memberikan contoh nyata penggunaan CRUD (Create, Read, Update, Delete) dengan REST API.
-- Memberikan gambaran struktur project Flutter yang rapi namun tetap sederhana.
+- Menunjukkan struktur project Flutter yang rapi namun tetap sederhana.
 
-## Fitur
+---
+
+## ✨ Fitur
 - Melihat daftar password.
 - Menambahkan password baru.
 - Mengedit password.
 - Menghapus password (dengan konfirmasi).
 - Logo aplikasi otomatis diambil dari [icon.horse](https://icon.horse).
 
-## Struktur Project
-```
+---
 
+## 📂 Struktur Project
 lib/
-blocs/          # Event, State, Bloc untuk Passwords
-models/         # Data model (PasswordModel)
-repositories/   # Repository untuk komunikasi dengan MockAPI
+blocs/ # Event, State, Bloc untuk Passwords
+models/ # Data model (PasswordModel)
+repositories/ # Repository untuk komunikasi dengan MockAPI
 ui/
-pages/        # Halaman (list, form)
-widgets/      # Widget kecil reusable (tile, empty view, error view)
+pages/ # Halaman (list, form)
+widgets/ # Widget kecil reusable (tile, empty view, error view)
 
-```
-
-## Dokumen Lain
+---
+## 📚 Dokumen Lain
 - [SETUP.md](SETUP.md) → cara menjalankan project dan setup MockAPI.  
-- [GUIDE.md](GUIDE.md) → panduan mengajar & penjelasan arsitektur project.  
-```
+- [GUIDE.md](GUIDE.md) → panduan mengajar & penjelasan arsitektur project. 
