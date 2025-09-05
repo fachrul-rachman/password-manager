@@ -1,4 +1,4 @@
-````markdown
+
 # Setup Project
 
 ## 1. Clone & Install
@@ -6,7 +6,8 @@
    ```bash
    git clone https://github.com/fachrul-rachman/password-manager.git
    cd password-manager
-````
+   ```
+
 
 2. Install dependencies Flutter:
 
