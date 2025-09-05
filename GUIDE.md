@@ -1,4 +1,3 @@
-```markdown
 # Teaching Guide – Password Manager (Flutter + BLoC + MockAPI)
 
 Dokumen ini ditujukan untuk **pengajar/mentor** yang ingin menggunakan project ini sebagai bahan ajar.
